@@ -1,0 +1,233 @@
+body{
+   background: var(--Grey-960, #151515);
+}
+
+.navigation-div{
+    display: flex;
+    width: fill;
+    padding: 24px 340px 0 327px;;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo-Text{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.LogoText{
+    color: var(--Grey-200, #D2D2D2);
+
+    /* Label/M */
+    font-family: "Inter Variable";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.16px;
+}
+
+#Nav-Text1{
+    color: var(--Grey-300, #A4A4A4);
+
+    /* Label/S */
+    font-family: "Inter Variable";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 14px */
+    letter-spacing: -0.14px;
+}
+
+#Nav-Text2{
+        color: var(--Grey-500, #717171);
+
+    /* Label light/S */
+    font-family: "Inter Variable";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    letter-spacing: -0.14px;
+    text-decoration: none;
+}
+
+.LeftNavText{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.PasswordLogo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#FirstHeaderText{
+    color: var(--Grey-300, #A4A4A4);
+    font-family: "Inter Variable";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90%; /* 28.8px */
+    letter-spacing: -0.32px;
+    margin: 0px;
+}
+#SecondHeaderText{
+    color: var(--Grey-100, #E9E9E9);
+    text-align: center;
+    font-family: "Inter Variable";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90%; /* 28.8px */
+    letter-spacing: -0.32px;
+    margin: 0px;
+}
+
+.headertexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 0px;
+
+}
+
+#heroSubText{
+    color: var(--Grey-400, #8F8F8F);
+    text-align: center;
+
+    /* Paragraph/Sx */
+    font-family: "Inter Variable";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: -0.15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.HeroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    margin-top: 139px;
+}
+
+button{
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 20px;
+    border: none;
+    background: var(--Grey-100, #E9E9E9);
+
+    color: var(--Grey-1000, #0E0E0E);
+
+    /* Label/Ms */
+    font-family: "Inter Variable";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 15px */
+    letter-spacing: -0.15px;
+    margin: 0px;
+}
+
+button:hover{
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 20px;
+    border: none;
+    background: var(--Grey-100, #D2D2D2);
+
+    color: var(--Grey-1000, #0E0E0E);
+
+    /* Label/Ms */
+    font-family: "Inter Variable";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 15px */
+    letter-spacing: -0.15px;
+    margin: 0px;
+}
+
+.HeadertextSubtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+#passwords{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+#password-el{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+     width: 207px;
+    height: 48px;
+    border-radius: 8px;
+    background: var(--Grey-950, #222);
+        /* Label/Ms */
+    font-family: "Inter Variable";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 15px */
+    letter-spacing: -0.15px;
+    margin: 0px;
+     color: var(--Grey-400, #8F8F8F);
+    text-align: center;
+
+}
+
+#password-el2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 207px;
+    height: 48px;
+    border-radius: 8px;
+    background: var(--Grey-950, #222);
+          /* Label/Ms */
+    font-family: "Inter Variable";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 15px */
+    letter-spacing: -0.15px;
+    margin: 0px;
+     color: var(--Grey-400, #8F8F8F);
+    text-align: center;
+
+}

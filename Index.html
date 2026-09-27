@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Password generator</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <div class="navigation-div">
+        <div class="Logo-Text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 16 17" fill="none">
+             <path d="M2.68009 2.0388C2.68009 2.0388 4.17006 0.457138 7.63137 0.457138C10.8635 0.457138 12.9266 2.0388 12.9266 2.0388M0.457031 6.07319C0.457031 6.07319 3.07021 2.56602 7.6318 2.56602C12.9266 2.56602 15.0353 6.3941 15.0353 6.3941M2.03825 14.0961C1.39642 12.4762 0.626233 8.70012 2.68009 6.55456C5.24742 3.87261 8.89212 3.9643 10.703 5.01874C12.5139 6.07318 13.958 8.02161 14.1873 9.94711C14.4165 11.8726 12.4451 13.2938 11.1615 12.5144C9.8778 11.7351 9.80903 9.85542 9.32765 9.14482C8.63533 8.12281 4.76605 8.09038 5.7288 12.0101C6.499 15.146 9.36586 16.2814 10.703 16.4571M12.2388 10.6577C11.8415 8.62524 10.0795 5.40843 6.30186 6.78378C1.5798 8.50298 3.87206 14.4858 5.98095 16.2279M7.6318 10.2222C7.6318 12.0101 8.90129 14.8526 12.6973 14.5775" stroke="#717171" stroke-width="0.914286" stroke-linecap="round"/>
+             </svg>
+             <h1 class="LogoText">Words</h1>
+        </div>
+        <div class="LeftNavText">
+            <a  id="Nav-Text1">
+                Docs
+            </a>
+            <a href="https://www.designguymarv.com/" id="Nav-Text2">
+                 Contact creator
+            </a>
+        </div>
+     </div>
+
+     <div class="HeroContent">
+        <div class="HeadertextSubtext">
+        <div class="headertexts">
+            <div class="PasswordLogo">
+                <h1 id="FirstHeaderText">
+                   Get Password
+                </h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                <path d="M3.67679 2.79705C3.67679 2.79705 5.72088 0.627155 10.4695 0.627155C14.9036 0.627155 17.7341 2.79705 17.7341 2.79705M0.626953 8.33185C0.626953 8.33185 4.21199 3.52035 10.4701 3.52035C17.7341 3.52035 20.627 8.77212 20.627 8.77212M2.79624 19.3385C1.91571 17.1162 0.859082 11.9358 3.67679 8.99225C7.19892 5.31286 12.1991 5.43865 14.6835 6.88525C17.1679 8.33184 19.1491 11.0049 19.4635 13.6465C19.778 16.2881 17.0735 18.2379 15.3124 17.1687C13.5514 16.0994 13.457 13.5207 12.7966 12.5458C11.8468 11.1437 6.53852 11.0992 7.85933 16.4768C8.91597 20.7789 12.849 22.3366 14.6835 22.5777M16.7905 14.6214C16.2454 11.833 13.8281 7.41986 8.64552 9.30672C2.16729 11.6653 5.31206 19.8732 8.20525 22.2632M10.4701 14.0239C10.4701 16.4768 12.2117 20.3763 17.4194 19.9989" stroke="#717171" stroke-width="1.25431" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div>
+                <h1 id="SecondHeaderText">
+                    That are unique.
+                </h1>
+            </div>
+        </div>
+            <p id="heroSubText">
+                Never use insecure passwords again.
+            </p>
+        </div>
+            <button onclick="generatePasswords()">Generate passwords</button>
+
+            <div id="passwords">
+                <p id="password-el"></p>
+                <p id="password-el2"> </p>
+            </div>
+     </div>
+    </main>
+    <script src="index.js"></script>
+</body>
